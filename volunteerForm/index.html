@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join CVF - Volunteer Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="../logo/cvf.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="volunteer-form-container">
+        <div class="form-logo">
+            <img src="../logo/cvf.jpg" alt="CVF Logo">
+        </div>
+        <h2>Join Coupa Volunteers Force</h2>
+        <form class="volunteer-form" autocomplete="on" id="login-form">
+            <div class="form-group">
+                <label for="fullname">Full name *</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of birth *</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone number * <span class="whatsapp">(WhatsApp)</span></label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,15}">
+            </div>
+            <div class="form-group">
+                <label>Gender *</label>
+                <div class="radio-group gender-group">
+                    <label class="gender-card"><input type="radio" name="gender" value="Male" required><i class="fa-solid fa-mars"></i><span>Male</span></label>
+                    <label class="gender-card"><input type="radio" name="gender" value="Female" required><i class="fa-solid fa-venus"></i><span>Female</span></label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address *</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City *</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="university">University *</label>
+                <input type="text" id="university" name="university" required>
+            </div>
+            <div class="form-group">
+                <label for="college">College *</label>
+                <input type="text" id="college" name="college" required>
+            </div>
+            <div class="form-group">
+                <label for="year">In Year *</label>
+                <input type="text" id="year" name="year" required>
+            </div>
+            <div class="form-group">
+                <label>Which committee would you like to be on? *</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="committee" value="PR" required> Pr “ Public relation "</label><br>
+                    <label><input type="radio" name="committee" value="Media" required> Media Committee</label><br>
+                    <label><input type="radio" name="committee" value="OR" required> Or “ Organizer "</label><br>
+                    <label><input type="radio" name="committee" value="HR" required> Hr “ Human resources "</label><br>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Where did you hear about volunteering opportunities at C.V.F Coupa Volunteers Force? *</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="source" value="Social Media"> Social Media</label>
+                    <label><input type="checkbox" name="source" value="Friends"> Friends</label>
+                    <label><input type="checkbox" name="source" value="Facebook"> C.V.F Page On Facebook</label>
+                    <label><input type="checkbox" name="source" value="Instagram"> C.V.F Page On Instagram</label>
+                    <label><input type="checkbox" name="source" value="Event"> From C.V.F Team At Event</label>
+                    <label><input type="checkbox" name="source" value="Other"> Other</label>
+                </div>
+            </div>
+            <button type="submit" class="btn-cta">Submit</button>
+        </form>
+    </div>
+    <div id="loading-overlay" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(255,255,255,0.8);z-index:9999;justify-content:center;align-items:center;">
+        <div style="text-align:center;">
+            <i class="fa-solid fa-spinner fa-spin" style="font-size:2.5rem;color:#2C7FB8;"></i>
+            <div style="margin-top:1rem;font-size:1.2rem;color:#2C7FB8;">Sending...</div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="telegram.js"></script>
+</body>
+</html> 
