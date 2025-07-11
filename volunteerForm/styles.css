@@ -257,7 +257,7 @@ input[type="radio"], input[type="checkbox"] {
         height: 100px;
     }
     .volunteer-form{
-        margin:0 0.9rem;
+        padding:0 0.9rem;
     }
     .volunteer-form-container h2 {
         font-size: 1.05rem;
