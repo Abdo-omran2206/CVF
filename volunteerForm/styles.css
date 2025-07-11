@@ -256,6 +256,9 @@ input[type="radio"], input[type="checkbox"] {
         width: 100px;
         height: 100px;
     }
+    .volunteer-form{
+        margin:0 0.9rem;
+    }
     .volunteer-form-container h2 {
         font-size: 1.05rem;
         margin-bottom: 1rem;
