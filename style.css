@@ -190,14 +190,16 @@ nav {
 .banner-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: var(--primary-blue) !important;
+    color: #fff !important;
+    text-shadow: 2px 2px 5px #000000;
 }
 .banner-content p {
     font-size: 1.25rem;
     padding: 0 auto;
     margin-bottom: 2rem;
     text-align: center;
-    color: var(--accent-blue) !important;
+    color: #fff !important;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 .banner-content h1 , .banner-content p , .banner-content a{
@@ -474,14 +476,20 @@ p {
         flex-direction: column;
         align-items: center;
     }
+    .logo{
+        font-size: 1.1rem;
+    }
     .main-logo {
-        max-width: 100px;
+        max-width: 110px;
     }
     .mySlides img {
         height: 180px;
     }
     .banner-content h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+    .banner-content p{
+        font-size: 1rem;
     }
     .std {
         padding: 30px 0 15px 0;

@@ -199,8 +199,8 @@ input[type="radio"], input[type="checkbox"] {
         min-width: 0;
     }
     .form-logo img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
     .volunteer-form-container h2 {
         font-size: 1.3rem;
@@ -253,8 +253,8 @@ input[type="radio"], input[type="checkbox"] {
         min-width: 0;
     }
     .form-logo img {
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
     }
     .volunteer-form-container h2 {
         font-size: 1.05rem;
