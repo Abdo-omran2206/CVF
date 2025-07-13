@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
+Sitemap: https://cvf-volunteers.ct.ws/sitemap.xml
+
+# Crawl delay (optional - tells crawlers to wait between requests)
+Crawl-delay: 1
+
+# Disallow specific file types if needed
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# Allow important directories
+Allow: /logo/
+Allow: /product/
+Allow: /volunteerForm/
+
+# Disallow any temporary or admin files
+Disallow: /temp/
+Disallow: /admin/
+Disallow: /private/ 

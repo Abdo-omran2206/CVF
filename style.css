@@ -24,7 +24,7 @@ body {
 }
 .banner {
     height: 100dvh;
-    background: url('logo/WhatsApp Image 2025-07-11 at 12.54.43_3badf859.jpg');
+    background: url('logo/banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -500,6 +500,9 @@ p {
     }
     .about-section .box {
         padding: 1.2rem 0.5rem;
+    }
+    .about-section.goals{
+        padding-top:0 ;
     }
     .about-section h2, .about-section h3 {
         font-size: 1.2rem;
