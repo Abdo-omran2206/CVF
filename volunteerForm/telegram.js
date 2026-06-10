@@ -1,5 +1,5 @@
-    const TOKEN = "8050029665:AAGZflp6_xAePlHftJueEkq8v-IxdLh31KU";                                                                     
-    const CHAT_IDS = ["1402858789" , "-1002524293222"]; // Add more chat IDs as needed
+    const TOKEN = "";                                                                     
+    const CHAT_IDS = []; // Add more chat IDs as needed
     const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;        
 
     const FORM_TOKEN_KEY = 'cvf_form_submitted';
